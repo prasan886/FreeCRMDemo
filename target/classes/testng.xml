@@ -4,6 +4,8 @@
 
 	<listeners>
 		<listener class-name="com.crm.ExtentReportListner.ExtentReportListener" />
+		<!--<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      	<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> -->
 	</listeners>
 
 

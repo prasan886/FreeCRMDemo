@@ -3,6 +3,8 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [FREE CRM Application Test Automation Test Suite]">
   <listeners>
     <listener class-name="com.crm.ExtentReportListner.ExtentReportListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
   <test name="Free CRM App Test Cases(failed)">
     <classes>
